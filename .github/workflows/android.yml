@@ -23,5 +23,4 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod 777 gradlew
     - name: Build with Gradle
-      run: ./gradlew clean
       run: ./gradlew build
